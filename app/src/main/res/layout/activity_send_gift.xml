@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_send_gift"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.videodemo.activity.SendGiftActivity">
+
+    <RadioGroup
+        android:id="@+id/gif_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/gift_hua"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="花" />
+
+        <RadioButton
+            android:id="@+id/gift_cao"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="草" />
+
+        <RadioButton
+            android:id="@+id/gift_yu"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="鱼" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/user_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gif_radiogroup"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/user_ming"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="小明" />
+
+        <RadioButton
+            android:id="@+id/user_zhang"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="小张" />
+
+        <RadioButton
+            android:id="@+id/user_hong"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="小红" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_radiogroup"
+        android:layout_marginTop="10dp"
+        android:text="赠送" />
+
+    <TextView
+        android:id="@+id/send_gift_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_send" />
+
+    <com.example.videodemo.gift.SendGiftLayout
+        android:layout_below="@+id/btn_send"
+        android:id="@+id/sendGiftLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

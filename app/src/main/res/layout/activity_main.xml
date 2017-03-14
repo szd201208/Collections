@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="camera"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_canvas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_camera"
+        android:layout_marginTop="10dp"
+        android:text="canvas"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_canvas"
+        android:layout_marginTop="10dp"
+        android:text="textview"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_opengl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_textview"
+        android:layout_marginTop="10dp"
+        android:text="opengl" />
+
+    <Button
+        android:id="@+id/btn_header_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_opengl"
+        android:layout_marginTop="10dp"
+        android:text="headerViewpager" />
+
+    <Button
+        android:id="@+id/btn_mediaplayer_basic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_header_viewpager"
+        android:layout_marginTop="10dp"
+        android:text="MediaPlayer基础" />
+
+    <Button
+        android:id="@+id/btn_image_zoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_mediaplayer_basic"
+        android:layout_marginTop="10dp"
+        android:text="图片缩放" />
+
+    <Button
+        android:id="@+id/btn_stock_kchart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_image_zoom"
+        android:layout_marginTop="10dp"
+        android:text="股票分时图" />
+
+    <Button
+        android:id="@+id/btn_matcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_stock_kchart"
+        android:layout_marginTop="10dp"
+        android:text="文字匹配" />
+
+    <Button
+        android:id="@+id/btn_live_sendheart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_matcher"
+        android:layout_marginTop="10dp"
+        android:text="直播点击送心" />
+
+    <Button
+        android:id="@+id/btn_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_live_sendheart"
+        android:layout_marginTop="10dp"
+        android:text="网络请求框架" />
+
+    <Button
+        android:id="@+id/btn_sendgift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_net"
+        android:layout_marginTop="10dp"
+        android:text="直播间送礼物" />
+
+    <Button
+        android:id="@+id/btn_statusbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_net"
+        android:layout_marginTop="10dp"
+        android:text="沉浸式标题栏" />
+</RelativeLayout>

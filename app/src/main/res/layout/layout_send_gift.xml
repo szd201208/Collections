@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="189dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="12.7dp"
+        android:src="@drawable/send_gift_bg" />
+
+    <ImageView
+        android:id="@+id/avator"
+        android:layout_width="31.7dp"
+        android:layout_height="31.7dp"
+        android:layout_marginTop="12.7dp" />
+
+    <TextView
+        android:id="@+id/nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.3dp"
+        android:layout_marginTop="12.7dp"
+        android:layout_toRightOf="@id/avator"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/giftname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nick"
+        android:layout_marginLeft="4.3dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@id/avator"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/giftimage"
+        android:layout_width="66.3dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="116dp" />
+
+    <TextView
+        android:id="@+id/giftnumber"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="193dp"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:gravity="center_vertical"
+        android:text="X 6"
+        android:textColor="@color/yellow" />
+</RelativeLayout>

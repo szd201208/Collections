@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.videodemo">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".CanvasActivity" />
+        <activity android:name=".Camera2Activity" />
+        <activity android:name=".TextViewActivity" />
+        <activity android:name=".OpenGLActivity" />
+        <activity android:name=".HeaderViewPagerActivity" />
+        <activity android:name=".RecycleViewActivity" />
+        <activity android:name=".RecycleViewActivity1" />
+        <activity android:name=".activity.BasicMediaplayerActivity" />
+        <activity android:name=".activity.ZoomActivity" />
+        <activity android:name=".activity.TChartActivity" />
+        <activity android:name=".activity.MatcherActivity" />
+        <activity android:name=".activity.LiveSendHeartActivity" />
+        <activity android:name=".activity.NetActivity" />
+        <activity android:name=".activity.SendGiftActivity" />
+        <activity android:name=".toolbar.StatusBarActivity"></activity>
+    </application>
+
+</manifest>
